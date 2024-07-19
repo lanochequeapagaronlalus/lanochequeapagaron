@@ -1,0 +1,37 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 701px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 531px;
+  height: 531px;
+  animation-timing-function: ease-in-out;
+  margin: 170px auto 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 832px;
+  }
+
+  .u-section-1 .u-image-1 {
+    background-position: 50% 50%;
+    border-style: solid;
+    animation-duration: 1250ms;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 510px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 340px;
+  }
+}
